@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import MainVideos from '$lib/MainVideos.svelte';
+	import SideBar from '$lib/SideBar.svelte';
+</script>
+
+<svelte:head>
+	<title>Youtube</title>
+</svelte:head>
+
+<div class="main">
+	<SideBar />
+
+	<div class="secondary">
+		<MainVideos />
+	</div>
+</div>
+
+<style>
+	.main {
+		display: flex;
+		height: 100%;
+	}
+</style>
