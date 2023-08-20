@@ -203,7 +203,7 @@
 	.videos {
 		display: flex;
 		flex-direction: row;
-		align-items: center;
+		align-items: start;
 		justify-content: center;
 		flex-wrap: wrap;
 		z-index: -1;
@@ -244,7 +244,7 @@
 		font-size: 1rem;
 		display: -webkit-box;
 		overflow: hidden;
-		width: 80%;
+		width: 100%;
 		-webkit-line-clamp: 4;
 		-webkit-box-orient: vertical;
 		font-weight: 900;
@@ -255,7 +255,7 @@
 	}
 
 	#below-info #grouped {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	@media screen and (max-width: 850px) {
